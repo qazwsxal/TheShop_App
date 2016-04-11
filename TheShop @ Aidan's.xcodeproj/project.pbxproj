@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F0E44761C88E81100E0927B /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0E44751C88E81100E0927B /* Reachability.swift */; };
 		3FB0865C1C85EE430096B067 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB0865B1C85EE430096B067 /* AppDelegate.swift */; };
 		3FB0865E1C85EE430096B067 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB0865D1C85EE430096B067 /* ViewController.swift */; };
 		3FB086611C85EE430096B067 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB0865F1C85EE430096B067 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F0E44751C88E81100E0927B /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 		3FB086581C85EE430096B067 /* TheShop @ Aidan's.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TheShop @ Aidan's.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FB0865B1C85EE430096B067 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FB0865D1C85EE430096B067 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				3FB0865B1C85EE430096B067 /* AppDelegate.swift */,
 				3FB0865D1C85EE430096B067 /* ViewController.swift */,
 				3FB0865F1C85EE430096B067 /* Main.storyboard */,
+				3F0E44751C88E81100E0927B /* Reachability.swift */,
 				3FB086621C85EE430096B067 /* Assets.xcassets */,
 				3FB086641C85EE430096B067 /* LaunchScreen.storyboard */,
 				3FB086671C85EE430096B067 /* Info.plist */,
@@ -193,6 +196,7 @@
 				TargetAttributes = {
 					3FB086571C85EE430096B067 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = F8JBUV9EN5;
 					};
 					3FB0866B1C85EE430096B067 = {
 						CreatedOnToolsVersion = 7.2;
@@ -258,6 +262,7 @@
 			files = (
 				3FB0865E1C85EE430096B067 /* ViewController.swift in Sources */,
 				3FB0865C1C85EE430096B067 /* AppDelegate.swift in Sources */,
+				3F0E44761C88E81100E0927B /* Reachability.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,10 +404,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "TheShop @ Aidan's/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.JPAppS.TheShop---Aidan-s";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -410,10 +418,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "TheShop @ Aidan's/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.JPAppS.TheShop---Aidan-s";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -484,6 +495,7 @@
 				3FB086821C85EE430096B067 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FB086831C85EE430096B067 /* Build configuration list for PBXNativeTarget "TheShop @ Aidan'sTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +504,7 @@
 				3FB086851C85EE430096B067 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3FB086861C85EE430096B067 /* Build configuration list for PBXNativeTarget "TheShop @ Aidan'sUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +513,7 @@
 				3FB086881C85EE430096B067 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
