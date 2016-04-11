@@ -29,6 +29,8 @@ class ViewController: UIViewController, WKNavigationDelegate {
         }
     }
     
+    //test for github
+    
     override func viewDidAppear(animated: Bool) {
         if Reachability.isConnectedToNetwork() == false{
             
